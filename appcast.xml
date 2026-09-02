@@ -4,5 +4,15 @@
         <title>LittleSwitch</title>
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Wed, 02 Sep 2026 20:45:26 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LittleSwitch 0.1.1</h2>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.1/LittleSwitch-0.1.1-arm64.dmg" length="15048301" type="application/octet-stream" sparkle:edSignature="4o7a2gGaXun/yv5JIAB5bp1P+NuGXu/2tKgHLt1yHRQo/bMd0LMBO7875Jm5Wp87j+iLFglvXu17RDIeT+WVCw=="/>
+        </item>
     </channel>
 </rss>
