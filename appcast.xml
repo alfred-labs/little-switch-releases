@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Model Switch</title>
+        <title>LittleSwitch</title>
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
-        <description>Model Switch releases</description>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Wed, 02 Sep 2026 19:13:51 +0000</pubDate>
-            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Model Switch 0.1.1</h2>]]></description>
-            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.1/Model-Switch-0.1.1-arm64.dmg" length="15054815" type="application/octet-stream" sparkle:edSignature="FiNNlozZljsrhH9FNFGlO17tRz5yw6AxJuqoNmNgsl4O0Xf62WlfQQdLHRfodKF7ED2fCHTKJYxjHrw1yiY7Dg=="/>
-        </item>
+        <description>LittleSwitch releases</description>
     </channel>
 </rss>
