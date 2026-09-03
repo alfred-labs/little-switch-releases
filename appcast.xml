@@ -5,6 +5,17 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.1.4</title>
+            <pubDate>Thu, 03 Sep 2026 17:21:36 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Fixes</h2>
+<ul><li>When a provider&apos;s model discovery cannot reach the endpoint, the error now names the actual connection problem — &quot;Read timeout&quot;, &quot;Remote connection closed&quot; — instead of an opaque `(AsyncHTTPClient.HTTPClientError error 1.)`, so script-authenticated providers show whether the endpoint, not the script, is the one failing.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.4/LittleSwitch-0.1.4-arm64.dmg" length="15149533" type="application/octet-stream" sparkle:edSignature="0/fSD5gq5KNp66LOxsPCH+ohSxaCeuGMItTG6ASWKGkT2ouJFvAiAH3vNadYMuEH5KRu+U+4tIHDh/5kyaS6Cg=="/>
+        </item>
+        <item>
             <title>0.1.3</title>
             <pubDate>Thu, 03 Sep 2026 16:56:14 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
