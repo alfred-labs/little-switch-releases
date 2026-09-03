@@ -6,16 +6,16 @@
         <description>LittleSwitch releases</description>
         <item>
             <title>0.1.3</title>
-            <pubDate>Thu, 03 Sep 2026 16:37:18 +0000</pubDate>
+            <pubDate>Thu, 03 Sep 2026 16:56:14 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
-            <sparkle:version>1</sparkle:version>
+            <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Always-there brand marks</h2>
 <ul><li>The menu&apos;s Claude Desktop and Codex rows now show LittleSwitch&apos;s own bundled brand marks instead of borrowing the installed applications&apos; icons, so every row reads correctly from the very first launch — no matter which apps are installed.</li></ul>
 <h2>Fixes</h2>
 <ul><li>Provider save failures are now reported inside the editor sheet instead of a generic app alert.</li></ul>]]></description>
-            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.3/LittleSwitch-0.1.3-arm64.dmg" length="15148154" type="application/octet-stream" sparkle:edSignature="1UnOADLrz3rhXKyiAk4v/h3SWceVQ/UrF5rRiYiBKBxMisYnUxo1uuZJ197pXxnoIn3EWVvnU/vgmYv/P3BWBg=="/>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.3/LittleSwitch-0.1.3-arm64.dmg" length="15148115" type="application/octet-stream" sparkle:edSignature="T9yxvcw7p8x6yfBA4CagRItQ9moXYvFnShr8ImPVcHwQ0DrCE/Cz2kuVWV4qt4J4eEr4H4ZeOVEV6M3mCVbLDw=="/>
         </item>
         <item>
             <title>0.1.2</title>
