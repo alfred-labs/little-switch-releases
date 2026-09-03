@@ -6,13 +6,18 @@
         <description>LittleSwitch releases</description>
         <item>
             <title>0.1.2</title>
-            <pubDate>Thu, 03 Sep 2026 11:10:23 +0000</pubDate>
+            <pubDate>Thu, 03 Sep 2026 11:31:47 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>LittleSwitch 0.1.2</h2>]]></description>
-            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.2/LittleSwitch-0.1.2-arm64.dmg" length="15778606" type="application/octet-stream" sparkle:edSignature="SgKPTUtTvOsJ2xyu/4vBAPWaGqRaX5iTvChl4EMgeRLyWfdeF6f1x3AoYDzFiOoXEOl4HAfY1hzot3m8pD91Cg=="/>
+            <description><![CDATA[<h2>Live model remaps — Claude Code &amp; Claude Desktop</h2>
+<ul><li>Remapping a route now applies immediately to running Claude apps: no relaunch, and open conversations follow along.</li><li>The served model catalog is invariant: route IDs and display names never move, so clients keep their model picker selections across remaps.</li><li>New Model indicator setting: choose how mapped routes are marked in the served model lists (⇌ equilibrium, ⇄ swap, ⇢ routed, ↦ maps-to, or plain).</li></ul>
+<h2>Tabbed status menu</h2>
+<ul><li>The menu is now organized into Overview, Claude, and Codex tabs.</li><li>The Claude tab maps the Opus, Sonnet, and Haiku routes in place with steppers and a single Apply action; the Codex tab sets the default Codex model.</li><li>Each tab shows its client&apos;s 30-day token history chart.</li><li>Steppers preview the chosen model immediately and reconcile when the apply lands.</li></ul>
+<h2>Fixes</h2>
+<ul><li>Codex refusals now explain which agents form was refused instead of surfacing a raw error code.</li><li>Compact token counts hold steady at display-rounding boundaries.</li><li>Menu tab content spacing is balanced top and bottom.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.2/LittleSwitch-0.1.2-arm64.dmg" length="15778606" type="application/octet-stream" sparkle:edSignature="odr3WWaGRHwibPYMjvV2YuGwa6dU626GbEZI1bRGMLs27efCa0DlROlQ0rzp1RIPbvv7LehfOcGYtU6hht52BQ=="/>
         </item>
         <item>
             <title>0.1.1</title>
