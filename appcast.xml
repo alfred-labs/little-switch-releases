@@ -5,6 +5,19 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.1.5</title>
+            <pubDate>Fri, 04 Sep 2026 16:46:34 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Improvements</h2>
+<ul><li>Codex&apos;s model picker now shows readable model names — `z.ai/glm-4.6`, `ollama/qwen3.5:9b-mlx` — instead of opaque encoded identifiers, described by the product name alone.</li><li>z.ai providers: the OpenAI-compatible coding path is the base URL and the Anthropic path becomes an optional second surface, editable in the provider form (&quot;Anthropic URL (optional)&quot;). Messages and count-tokens ride the Anthropic URL when present; discovery and chat completions mount at the base URL.</li><li>The provider form leads with the connection test outcome rows.</li></ul>
+<h2>Fixes</h2>
+<ul><li>vLLM providers: streaming responses with `null` reasoning content or absent function-call fields no longer masquerade as stream failures.</li><li>The Responses wire resolves by automatic detection again; the z.ai base-URL heuristic is gone.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.1.5/LittleSwitch-0.1.5-arm64.dmg" length="15287486" type="application/octet-stream" sparkle:edSignature="74HRNR7+lpdvBvqxppEG3NnNzJ9LsGFZVnPP8Bu4uZDD+NmIPwTWxwJPtAwofsfdT7AO+XAMTuZwvRkYOYmaDg=="/>
+        </item>
+        <item>
             <title>0.1.4</title>
             <pubDate>Thu, 03 Sep 2026 17:21:36 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
