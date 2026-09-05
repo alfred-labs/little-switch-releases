@@ -5,6 +5,23 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Sat, 05 Sep 2026 21:07:00 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Improvements</h2>
+<ul><li>**Claude Desktop web search through the gateway.** The Desktop&apos;s built-in web-search server now runs against LittleSwitch itself: searches execute on the configured provider (Firecrawl or Tavily), honor the results limit, appear in Logs, and need no credential in any configuration file.</li><li>**The gateway speaks https and plain http on one port.** Claude Desktop rides https — its managed web-search contract accepts nothing else — while Claude Code, Codex, and OpenCode keep plain http with no client-side migration. The first inbound byte decides.</li><li>**The https identity is a private loopback authority.** Its signing key is created in memory, signs exactly one leaf, and is destroyed before issuance returns; the anchor macOS trusts can never vouch for anything new. One consent prompt on first connect, then silence — toggling the Claude switch never re-prompts. Renewal is automatic inside a 30-day margin of the 825-day validity.</li><li>The menu&apos;s usage block now shows the token direction — input, cached, output — in a two-row grid instead of one blended total.</li><li>Every published version of Claude&apos;s built-in web-search tool is bridged as a direct call, so a client that upgraded to `web_search_20260209` or later no longer loses whole conversations to an HTTP 400.</li></ul>
+<h2>Fixes</h2>
+<ul><li>A missing web-search provider key now answers 503 &quot;Web search credential is missing&quot; instead of a misleading provider failure, matching the earlier 401 diagnosis fix.</li><li>Idle TCP connections to the gateway no longer park a task forever; silent peers and oversized handshakes are closed at the decision bound.</li><li>Claude Desktop&apos;s profile only advertises the https origin once the trust anchor is actually installed, so a dismissed or failed consent prompt degrades to plain http instead of cutting the Desktop off entirely.</li></ul>
+<h2>Improvements</h2>
+<ul><li>Codex&apos;s model picker now shows readable model names — `z.ai/glm-4.6`, `ollama/qwen3.5:9b-mlx` — instead of opaque encoded identifiers, described by the product name alone.</li><li>z.ai providers: the OpenAI-compatible coding path is the base URL and the Anthropic path becomes an optional second surface, editable in the provider form (&quot;Anthropic URL (optional)&quot;). Messages and count-tokens ride the Anthropic URL when present; discovery and chat completions mount at the base URL.</li><li>The provider form leads with the connection test outcome rows.</li></ul>
+<h2>Fixes</h2>
+<ul><li>vLLM providers: streaming responses with `null` reasoning content or absent function-call fields no longer masquerade as stream failures.</li><li>The Responses wire resolves by automatic detection again; the z.ai base-URL heuristic is gone.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.2.0/LittleSwitch-0.2.0-arm64.dmg" length="18391868" type="application/octet-stream" sparkle:edSignature="bezocOJH0kepVlwkVRNQkhO3yYRrtuB+H2UXMBYNx0NYrzDfZOlRF2ss0VZyoZuAzwx3k5tpYPv9yRZxJo6RAg=="/>
+        </item>
+        <item>
             <title>0.1.5</title>
             <pubDate>Fri, 04 Sep 2026 16:46:34 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
