@@ -5,6 +5,17 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Mon, 07 Sep 2026 09:27:48 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Fixes</h2>
+<ul><li>Web-search domain exclusions now hold on every client. A Codex or OpenCode request&apos;s blocked domains reached the model&apos;s searches unfiltered; the filter now maps to the provider&apos;s exclude list the way Claude requests already did.</li><li>Forcing a search no longer fails the turn. A Claude request pinning its tool choice to the built-in web search tool kept naming a tool the provider never sees after the gateway swaps in its own, and the provider rejected the whole request; the forced choice now follows the swap.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.3.1/LittleSwitch-0.3.1-arm64.dmg" length="18431080" type="application/octet-stream" sparkle:edSignature="h9pa8kWfrtbD91TuVr5iW+v7soF/Z3m0gf8UqLYroZTkz2GPWQ8rBehMBRogL2jbLcC5wr374pF3Asfxp9e2Aw=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Mon, 07 Sep 2026 05:54:03 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
