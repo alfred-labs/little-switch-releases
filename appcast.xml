@@ -5,17 +5,17 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
-            <title>0.2.1</title>
-            <pubDate>Mon, 07 Sep 2026 05:45:14 +0000</pubDate>
+            <title>0.3.0</title>
+            <pubDate>Mon, 07 Sep 2026 05:54:03 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Breaking changes</h2>
 <ul><li><strong>The gateway is loopback-only.</strong> &quot;Expose LittleSwitch to the network&quot; is removed: the gateway binds 127.0.0.1 and the authority check accepts only loopback hosts. LAN clients stop connecting after this update. The loopback TLS identity — localhost and 127.0.0.1 under the private authority — cannot vouch for a LAN hostname, so network clients would fail certificate validation with no way to fix it from the app. Configurations carrying the old setting migrate silently to loopback-only.</li></ul>
 <h2>Improvements</h2>
 <ul><li><strong>Claude route edits now wait for Apply.</strong> While Claude Desktop is connected, model remaps stage as a draft instead of reaching running conversations immediately. Apply commits them in one step — one save, one routing swap — and the menu and settings mark every application that holds unapplied changes, so a disconnect never discards edits unseen.</li><li><strong>The Fable route.</strong> Fable 5 joins the route catalog alongside Opus, Sonnet, and Haiku, and Claude Code&apos;s managed settings learn it as a default model.</li><li><strong>Brave joins the web-search providers.</strong> Brave Search sits next to Firecrawl and Tavily in Settings → Web Search: one API key (Search plan), up to 20 results per search, country filters honored. Search queries keep every character — including a literal plus — through to the provider.</li><li><strong>Claude Code speaks https when the gateway anchor is trusted.</strong> The managed Claude Code origin follows the same trust state as the Claude Desktop profile: https while the loopback certificate is trusted, plain http otherwise, so a terminal session is never stranded on an origin it cannot validate.</li><li>The gateway&apos;s own endpoints moved to `/health` and `/api/` (about, web search). Clients still holding the previous `/_little_switch/` addresses keep working during a one-release transition window.</li><li>Testing a split-surface provider — a z.ai preset with the optional Anthropic URL — now probes model discovery at the base URL, so the connection test reflects what routing actually uses.</li></ul>]]></description>
-            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.2.1/LittleSwitch-0.2.1-arm64.dmg" length="18400150" type="application/octet-stream" sparkle:edSignature="TTYvbHLcfh0G1g7cUQ5kZmyB3oOn2x1fK6l2yV2U5D9dvL7dMWOcq7/vDb//QJO/O9+v+89n09HxjQL0/TTmAw=="/>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.3.0/LittleSwitch-0.3.0-arm64.dmg" length="18400506" type="application/octet-stream" sparkle:edSignature="EWt33Z2ZtX96DR+9Uf7K+Kxk5yvfjNNTz61iYzBEfjRpQMOnZyhmhFYDA4Yhn4GCsjS/T7wu/JDaPj/JWLnyAA=="/>
         </item>
         <item>
             <title>0.2.0</title>
