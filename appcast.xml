@@ -5,6 +5,23 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Wed, 09 Sep 2026 11:37:29 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Claude Auto compatibility</h2>
+<ul><li>New <strong>Disabled thinking → Use low effort</strong> option in each provider&apos;s Advanced settings helps reasoning backends produce complete short classifier verdicts when Claude requests thinking to be disabled.</li><li>Existing effort choices, token limits and model decisions are preserved. The option is off by default and can be enabled only for providers that need it.</li><li>Claude Code no longer disables prompt caching in its connection profile.</li></ul>
+<h2>Web search</h2>
+<ul><li><strong>Exa</strong> is now available alongside Firecrawl, Tavily and Brave, with configurable search limits, highlighted results and domain filters.</li></ul>
+<h2>Updates</h2>
+<ul><li>Homebrew updates now ship alongside the in-app updater, using the same verified release DMG.</li><li>Published versions are marked as the latest stable release so website downloads resolve to the current version.</li></ul>
+<h2>Compatibility</h2>
+<ul><li>Requires an Apple Silicon Mac running macOS 14 or later.</li><li>Existing configuration, routes and credentials are preserved. The new provider option can be left at <strong>Pass through</strong> to keep the previous behavior.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.4.1/LittleSwitch-0.4.1-arm64.dmg" length="19106412" type="application/octet-stream" sparkle:edSignature="7b61pR5zbOo8puAxBnyE42HFaSBYlHuWReFwXjYZKpyY/cZFApIE/w5CEMM7iCqAY1S1rpd5UHhxZHyozfn6Bw=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 09 Sep 2026 00:12:12 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
