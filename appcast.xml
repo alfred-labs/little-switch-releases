@@ -5,6 +5,21 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Wed, 09 Sep 2026 14:02:01 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Settings and menu</h2>
+<ul><li>The menu-bar gear brings Settings to the foreground on the first click, including when its window is already open behind another application.</li><li>The Codex icon stays visible in light and dark appearance and follows the selected control&apos;s color.</li></ul>
+<h2>Web search</h2>
+<ul><li>Codex&apos;s managed profile enables live web search. Existing connections can adopt the setting with <strong>Apply</strong>; disconnecting restores the original search mode.</li><li>Web Search settings now use wording shared by all supported agents.</li></ul>
+<h2>Compatibility</h2>
+<ul><li>Requires an Apple Silicon Mac running macOS 14 or later.</li><li>Existing routes and credentials are preserved.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.4.2/LittleSwitch-0.4.2-arm64.dmg" length="19110281" type="application/octet-stream" sparkle:edSignature="bxRaSshhlL9DcNmgTd7jj5TTpxGjbtYoaDntkoA0b6bnh95GKFFe9LH6qozUHpsf2hSgStXiK/vNRwgp+czfCw=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Wed, 09 Sep 2026 11:37:29 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
