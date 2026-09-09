@@ -5,6 +5,19 @@
         <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
         <description>LittleSwitch releases</description>
         <item>
+            <title>0.4.3</title>
+            <pubDate>Wed, 09 Sep 2026 16:21:49 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Menu bar</h2>
+<ul><li>Active connection switches in Overview keep their accent color after Settings is closed, including when LittleSwitch is in the background.</li></ul>
+<h2>Compatibility</h2>
+<ul><li>Requires an Apple Silicon Mac running macOS 14 or later.</li><li>Existing routes and credentials are preserved.</li></ul>]]></description>
+            <enclosure url="https://github.com/alfred-labs/little-switch-releases/releases/download/v0.4.3/LittleSwitch-0.4.3-arm64.dmg" length="19149815" type="application/octet-stream" sparkle:edSignature="Z69hDbBS3M6UMAggXQZMpFMq3O/kP0YN+ZzZGi3MvQSRa7zYF0Y9eaCi0tiqLapZKPpYKKbruCmM3R1ybmxxAQ=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Wed, 09 Sep 2026 14:02:01 +0000</pubDate>
             <link>https://raw.githubusercontent.com/alfred-labs/little-switch-releases/main/appcast.xml</link>
